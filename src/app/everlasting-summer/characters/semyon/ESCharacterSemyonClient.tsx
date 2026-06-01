@@ -101,8 +101,7 @@ export default function CharacterSemyonPage() {
                                 <p className="text-muted-foreground leading-relaxed mb-4">После школы Семён поступил в институт, но так и не закончил его. Со временем он окончательно ушёл в затворнический образ жизни: подрабатывал удалённо, почти не виделся с людьми и жил в захламлённой квартире.</p>
                                 <p className="text-muted-foreground leading-relaxed mb-4">Незадолго до начала игры ему начинает сниться один и тот же сон — ворота лагеря «Совёнок» и странная девочка, спрашивающая: «Ты пойдёшь со мной?».</p>
                                 <p className="text-muted-foreground leading-relaxed">Однажды зимой Семён отправляется на встречу выпускников. По дороге он засыпает в автобусе маршрута 410, а просыпается уже летом — возле советского пионерлагеря{" "}«<Link href="/everlasting-summer/sovyonok" className="text-green-600 hover:text-green-700 hover:underline transition-colors">Совёнок</Link>».</p>
-                                <h2 id="Жизнь-в-совёнке" className="text-xl font-semibold mt-8 border-b pb-2 mb-4 scroll-mt-15">Жизнь в «Совёнке»</h2>
-                                
+                                    
                             </article>
                         </CardContent>
                     </Card>
