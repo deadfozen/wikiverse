@@ -6,19 +6,18 @@ import {SovietIcon} from "@/components/ui/soviet"
 import ESHeader from "@/components/es-header"
 import Footer from "@/components/footer"
 const characters = [
-    {id: "semyon", name: "Семён", image: "/everlasting-summer/characters/semyon.webp"},
-    {id: "alisa", name: "Алиса", image: "/everlasting-summer/characters/alisa.webp"},
-    {id: "lena", name: "Лена", image: "/everlasting-summer/characters/lena.webp"},
-    {id: "miku", name: "Мику", image: "/everlasting-summer/characters/miku.webp"},
-    {id: "pioneer", name: "Пионер", image: "/everlasting-summer/characters/pioneer.webp"},
     {id: "slavya", name: "Славя", image: "/everlasting-summer/characters/slavya.webp"},
+    {id: "lena", name: "Лена", image: "/everlasting-summer/characters/lena.webp"},
+    {id: "alisa", name: "Алиса", image: "/everlasting-summer/characters/alisa.webp"},
+    {id: "miku", name: "Мику", image: "/everlasting-summer/characters/miku.webp"},
     {id: "ulyana", name: "Ульяна", image: "/everlasting-summer/characters/ulyana.webp"},
-    {id: "yulia", name: "Юля", image: "/everlasting-summer/characters/yulia.webp"}
+    {id: "yulia", name: "Юля", image: "/everlasting-summer/characters/yulia.webp"},
+    {id: "semyon", name: "Семён", image: "/everlasting-summer/characters/semyon.webp"}
 ]
 function CharacterCard({char}: {char: {id: string; name: string; image: string}}) {
     return(
         <Link href={`/everlasting-summer/characters/${char.id}`}>
-            <Card className="group cursor-pointer hover:border-primary transition-colors w-40">
+            <Card className="group cursor-pointer hover:border-primary transition-colors w-45">
                 <div className="aspect-square overflow-hidden rounded-t-lg">
                     <img src={char.image} alt={char.name} className="w-full h-full object-cover group-hover group-hover:scale-105 transition-transform duration-300"/>
                 </div>
